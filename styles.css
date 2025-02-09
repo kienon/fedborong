@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Global Styles */
+/* Gaya Global */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -56,7 +56,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Main Content */
+/* Kandungan Utama */
 main {
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsive Design */
+/* Reka Bentuk Responsif */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
@@ -116,7 +116,7 @@ footer {
     }
 }
 
-/* Utility Classes */
+/* Kelas Utiliti */
 .text-center {
     text-align: center;
 }
@@ -133,14 +133,14 @@ footer {
     padding: 20px;
 }
 
-/* Grid System */
+/* Sistem Grid */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
-/* Buttons */
+/* Butang */
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -154,7 +154,7 @@ footer {
     background-color: #555;
 }
 
-/* Forms */
+/* Borang */
 form {
     display: flex;
     flex-direction: column;
