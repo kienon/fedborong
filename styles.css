@@ -85,6 +85,56 @@ footer {
     margin-top: 20px;
 }
 
+/* Section Pengerusi */
+#pengerusi {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.pengerusi-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pengerusi-gambar {
+    flex: 1;
+    max-width: 400px;
+}
+
+.pengerusi-gambar img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pengerusi-ucapan {
+    flex: 2;
+}
+
+blockquote {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #444;
+    border-left: 4px solid #333;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.nama-pengerusi {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.jawatan-pengerusi {
+    color: #666;
+    font-style: italic;
+}
+
+
 /* Reka Bentuk Responsif */
 @media (max-width: 768px) {
     header h1 {
@@ -98,6 +148,17 @@ footer {
 
     main {
         flex-direction: column;
+    }
+    .pengerusi-container {
+        flex-direction: column;
+    }
+    
+    .pengerusi-gambar {
+        max-width: 300px;
+    }
+    
+    blockquote {
+        font-size: 1.1em;
     }
 }
 
@@ -113,6 +174,13 @@ footer {
     .container {
         width: 100%;
         padding: 10px;
+    }
+    .pengerusi-gambar img {
+        border-radius: 8px;
+    }
+    
+    .nama-pengerusi {
+        font-size: 1.3em;
     }
 }
 
